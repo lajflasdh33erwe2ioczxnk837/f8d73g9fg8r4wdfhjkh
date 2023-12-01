@@ -28,6 +28,6 @@ vote = VotingClassifier(estimators=[
 
 
 ## Contact information
-- Name: 정성룡
-- Student ID: 20232865
-- E-mail: jungsr1116@cau.ac.kr
+- Name: 
+- Student ID: 
+- E-mail: 
