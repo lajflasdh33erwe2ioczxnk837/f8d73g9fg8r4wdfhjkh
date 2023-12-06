@@ -1,5 +1,5 @@
 # final...
-
+## USE pikle file!!!!!
 ## Configuration instructions
 ### I used Voting...
 1. KNN
