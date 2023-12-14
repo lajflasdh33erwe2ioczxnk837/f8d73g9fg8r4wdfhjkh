@@ -1,6 +1,6 @@
-# final...
+# Final
 ## Configuration instructions
-### I used Voting...
+### I used Voting
 1. KNN
 ```python
 knn = KNeighborsClassifier(n_neighbors=1)
