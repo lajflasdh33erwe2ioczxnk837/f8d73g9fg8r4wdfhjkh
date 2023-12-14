@@ -17,11 +17,10 @@ svc = Pipeline([
 
 3. Voting
 ```python
-from sklearn.ensemble import VotingClassifier
-vote = VotingClassifier(estimators=[
-                                    ('KNN1',knn_clf1),
-                                    ('SVC1',svc_clf1)
-                                   ])
+classifier_weights = [1, 0.03]
+pipeline = VotingClassifier(estimators=classifiers,
+                             voting='soft',
+                             weights=classifier_weights)
 ```
 
 ## Copyright and licensing information
